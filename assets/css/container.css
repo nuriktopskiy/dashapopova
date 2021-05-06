@@ -1,0 +1,36 @@
+.categorie-block{
+	display: flex;
+flex-direction: column;
+align-items: center;
+width: 100px;
+}
+
+
+/* Элемент | file:///H:/Desktop/dasha/index.html */
+
+.popular-categorie {
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* container.css | file:///H:/Desktop/dasha/assets/css/container.css */
+
+.categorie-block {
+  /* width: 100px; */
+  padding: 20px 10px;
+  width: calc(20% - 20px);
+	min-width: max-content;
+  /*background: #E8EAED;*/
+  margin: 10px;
+  box-shadow: 0 5px 25px rgba(30,31,33,.12);
+  cursor: pointer;
+}
+
+.categorie-block:hover{
+	background: #E8EAED;
+}
+
+.categorie-block-img{
+	margin-bottom: 5px;
+}
